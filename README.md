@@ -8,7 +8,7 @@ Using `systemsetup` you can define certain System Preferences from the command l
 
 ```puppet
 class { 'systemsetup::computer_name':
-computer_name => 'mycomputername'
+  computer_name => 'mycomputername'
 }
 ```
 
