@@ -1,4 +1,4 @@
-# Public: Set a system config option with the OS X defaults system
+# Public: Set a system config option with the OS X systemsetup system
 
 define systemsetup::base(
   $key,

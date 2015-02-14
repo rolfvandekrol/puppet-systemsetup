@@ -1,3 +1,4 @@
+# Public: Set the hostname of the computer
 
 class systemsetup::computer_name($computer_name = 'machine') {
   systemsetup::base{ 'systemsetup computer name':
