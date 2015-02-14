@@ -1,5 +1,5 @@
 
-class systemsetup::computer_name($computer_name) {
+class systemsetup::computer_name($computer_name = 'machine') {
   systemsetup::base{ 'systemsetup computer name':
     key    => 'computername',
     value  => $computer_name,
